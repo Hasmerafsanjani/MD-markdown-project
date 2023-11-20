@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* mark down style  */
+
+body {
+  min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
+
+.center-div {
+  width: 80vw;
+display: flex;
+
+}
+
+.left-side,
+.right-side {
+size-adjust: fixed;
+  width: 500px;
+  height: 80vh;
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.writer{
+  padding:0;
+}
+.right-side{
+ 
+  background-color: rgb(84, 117, 84);
+  color:white;
+}
+.left-side {
+
+  background-color: black;
+  color: aliceblue;
+}
+
+/* @media (max-width: 768px) {
+  .center-div {
+    width: 80vw;
+    margin: 100px auto;
+    display: block;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+} */
